@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style> 
-    table,th,td,tr{
+    table,th,td,tr, form{
 
         border: 1px solid black;
 
@@ -108,7 +108,63 @@
 
 </tr>
 
+
 </table>
+<h2>Apresentação Formulários</h2>
+<form action="#">
+<label for="meuID">Rótulo da informação a ser inserida</label>
+<br>
+<input type="text" id="meuID">
+<br>
+
+<label for="numero">Rótulo para número </label>
+<br>
+
+<input type="number" id="numero" value="1000">
+<br>
+
+<label for="email">Rótulo parama email</label>
+<br>
+
+
+<input type="email"  id="email" placeholder="exemplo@email.com">
+<br>
+
+<label for="senha">Rótulo para senha</label>
+<br>
+
+<input type="password" name="" id="senha">
+<br>
+
+<label for="">Exemplo caixas de seleção</label>
+<br>
+
+<input type="checkbox" name="selecao" id="f" value="LojaFeminino">
+<label for="f">Loja Departamento Feminina</label>
+
+<input type="checkbox" name="selecao" id="m" value="LojaMasculino">
+<label for="m">Loja Departamento Masculino</label>
+<br>
+<label for="">Exemplo de seleção única</label>
+<br>
+<input type="radio" name="selecaoUnica" id="um" value="1">
+<label for="um">Primeira opção</label>
+
+<input type="radio" name="selecaoUnica" id="dois" value="2">
+<label for="dois">Segunda opção</label>
+<br>
+<label for="testeselect">Seleção por lista</label>
+<br>
+<select name="testeselect" id="testeselect">
+<option value="1" disabled >op 1</option>
+<option value="2">op2</option>
+<option value="3">op3</option>
+
+</select>
+<br>
+<textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
+
+</form>
 
 </body>
 </html>
