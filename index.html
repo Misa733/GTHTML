@@ -13,103 +13,133 @@
     </style>
 </head>
 <body>
-    <h1>exemplos de utilização das tags</h1>
-    <h2>Apresentação das listas</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos a, aperiam, est distinctio hic aut voluptates fugit esse iusto eius blanditiis excepturi maxime commodi obcaecati corrupti. Dolorum fugiat nostrum rerum?</p>
+    <header> <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="logo programa">
+        <h1>logo-Geracao-Tech - Desenvolvimento Front-and</h1>
+        <nav>
+            <a href="#listas">Tags de Listas</a>
+            <a href="#tabelas">Tags Tabelas</a>
+            <a href="#formularios">Tags de Formulários</a>
+            <a href="">Tags de Divisôes</a>
+        </nav>
 
+
+  </header>
+
+</main>
+
+
+<h1>exemplos de utilização das tags</h1>
+<section id="listas">
+
+    <h2>Apresentação das listas</h2>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos a, aperiam, est distinctio hic aut voluptates fugit esse iusto eius blanditiis excepturi maxime commodi obcaecati corrupti. Dolorum fugiat nostrum rerum?</p>
+    
     <h3>Listas ordenada" </h3>
     <ol type="A">
     <li>coisa</li>
     <li>coisa</li>
     <li>coisa</li>
     <li>coisa</li>
-</ol>
-<h3>Listas não ordenadas</h3>
-<ul> 
+    </ol>
+    <h3>Listas não ordenadas</h3>
+    <ul> 
     <li>coisa</li>
     <li>coisa</li>
     <li>coisa</li>
-<h3>continuação das listas ordenadas</h3>
-<ol type="A" start="5"> 
+    <h3>continuação das listas ordenadas</h3>
+    <ol type="A" start="5"> 
     <li></li>
     <li></li>
     <li></li>
-   
-
-</ol>
-
-</ul>
-
-<h3>Listas de definição</h3>
-<ol type="A">
-<li>
+    
+    
+    </ol>
+    
+    </ul>
+    
+    <h3>Listas de definição</h3>
+    <ol type="A">
+    <li>
     <dl>
     <dt>Café</dt>
-<dd>bebida, normalmente quente, forte, rica em caféina adoçada ou não </dd>
-</li>
-<li>
-<dt>Aguá</dt>
-<dd>Liquido primordial para a vida humana</dd>
-</dl>
-
-</li>
-
-</ol>
-<h2>Experiências Profissioanais</h2>
-<dl>
-<dt>desenvolvedor FlutterFlow</dt>
-<dd>Trabalhei na Criação de app's "nocode" e na manutenção dos mesmos</dd>
-
-
-</dl>
-<h3>quabra de linha</h3>
-<p> Come and get your love<br>
+    <dd>bebida, normalmente quente, forte, rica em caféina adoçada ou não </dd>
+    </li>
+    <li>
+    <dt>Aguá</dt>
+    <dd>Liquido primordial para a vida humana</dd>
+    </dl>
+    
+    </li>
+    
+    </ol>
+    <h2>Experiências Profissioanais</h2>
+    <dl>
+    <dt>desenvolvedor FlutterFlow</dt>
+    <dd>Trabalhei na Criação de app's "nocode" e na manutenção dos mesmos</dd>
+    
+    
+    </dl>
+    <h3>quabra de linha</h3>
+    <p> Come and get your love<br>
     Come and get your love<br>
     Come and get your love<br>
     Come and get your love<br></p>
+    
+    <section>
+
 
 
 <h2> apresentação tabelas </h2>
-<table>
+
+<section id="tabelas">
+    <table>
+        <th>coluna 1</th>
+        <th>coluna 2</th>
+        <th>coluna 3</th>
+        
+        
+        
+        <tr>
+        <td>info_linha1col1</td>
+        <td>info_linha1col2</td>
+        <td>info_linha1col3</td>
+        
+        
+        </tr>
+        <td>info_linha2col1</td>
+        <td>info_linha1col2</td>
+        <td>info_linha1col3</td>
+        <tr>
+        
+        <td colspan="2">info_linha3col1</td>
+        <td rowspan=>info_linha1col2</td>
+        </tr>
+        
+        <tr>
+        <td rowspan="2">info_linha4/5col1</td>
+        <td>info_linha4col2</td>
+        <td>info_linha4col2/3</td>
+        
+        
+        </tr>
+        <tr>
+        <td>info_linha5col2</td>
+        <td>info_linha5col3</td>
+        
+        </tr>
+    </table>
+    
+    
+</section>
 
 
-<th>coluna 1</th>
-<th>coluna 2</th>
-<th>coluna 3</th>
 
 
 
-<tr>
-<td>info_linha1col1</td>
-<td>info_linha1col2</td>
-<td>info_linha1col3</td>
+<section id="formularios">
 
 
-</tr>
-<td>info_linha2col1</td>
-<td>info_linha1col2</td>
-<td>info_linha1col3</td>
-<tr>
-
-    <td colspan="2">info_linha3col1</td>
-    <td rowspan=>info_linha1col2</td>
-</tr>
-
-<tr>
-<td rowspan="2">info_linha4/5col1</td>
-<td>info_linha4col2</td>
-<td>info_linha4col2/3</td>
-
-
-</tr>
-<tr>
-<td>info_linha5col2</td>
-<td>info_linha5col3</td>
-
-</tr>
-
-
-</table>
 <h2>Apresentação Formulários</h2>
 <form action="#">
 <label for="meuID">Rótulo da informação a ser inserida</label>
@@ -165,6 +195,20 @@
 <textarea name="" id="" cols="30" rows="10" placeholder="xingue aqui"></textarea>
 
 </form>
+
+</section>
+
+<main>
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
 
 </body>
 </html>
